@@ -1,0 +1,38 @@
+{
+    "runtimeId":  "EasyLocal",
+    "version":  "1.2.0",
+    "minOs":  "10.0",
+    "channel":  "stable",
+    "notes":  "ヘルプからPHPの手動更新機能を利用できるようになりました",
+    "artifact":  {
+                     "url":  "EasyLocal.exe",
+                     "sha256":  "587fa304603ffde63122acc2df2e414e2168fd714444a5df752ed0b796840434",
+                     "size":  145292199
+                 },
+    "history":  [
+                    {
+                        "version":  "1.2.0",
+                        "notes":  "ヘルプからPHPの手動更新機能を利用できるようになりました"
+                    },
+                    {
+                        "version":  "1.1.0",
+                        "notes":  "PHP脆弱性対応のため、本体のPHPを(PHP 8.5 (8.5.12-1))にアップデートしています、全体を再DLしてPHPを更新してください\nヘルプ→EasyLocal情報　から、PHPのバージョン表示が確認できます"
+                    },
+                    {
+                        "version":  "1.0.11",
+                        "notes":  ".htacessファイルが膨大な場合にAPIが動作しないことがある不具合の修正"
+                    },
+                    {
+                        "version":  "1.0.10",
+                        "notes":  "設定ボタン押下時にファイル数が多い場合フリーズする問題の修正\n新規サイトの .htaccess が起動直後に効かず API が HTML を返す問題の修正\nphp-cgi のリクエスト単位プロセスでも PHP セッション / CSRF が切れないよう修正"
+                    },
+                    {
+                        "version":  "1.0.9",
+                        "notes":  "Apache準拠のBASIC認証機能追加\n設定にパスワード機能追加\nEasyLocal履歴機能追加\n文言を統一"
+                    },
+                    {
+                        "version":  "1.0.8",
+                        "notes":  "EasyLocal runtime 1.0.8"
+                    }
+                ]
+}
