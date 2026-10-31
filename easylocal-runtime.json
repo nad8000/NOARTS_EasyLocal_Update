@@ -1,15 +1,19 @@
 {
     "runtimeId":  "EasyLocal",
-    "version":  "1.2.0",
+    "version":  "1.3.0",
     "minOs":  "10.0",
     "channel":  "stable",
-    "notes":  "ヘルプからPHPの手動更新機能を利用できるようになりました",
+    "notes":  "実行ファイルのダウンロード先をgithubに変更しました",
     "artifact":  {
-                     "url":  "EasyLocal.exe",
-                     "sha256":  "587fa304603ffde63122acc2df2e414e2168fd714444a5df752ed0b796840434",
+                     "url":  "https://github.com/nad8000/NOARTS_EasyLocal_Update/releases/download/1.3.0/EasyLocal.exe",
+                     "sha256":  "835e86e23f67c08f5469a527e99a8a2383ab27656d8b258b6a150fea540c0682",
                      "size":  145292199
                  },
     "history":  [
+                    {
+                        "version":  "1.3.0",
+                        "notes":  "実行ファイルのダウンロード先をgithubに変更しました"
+                    },
                     {
                         "version":  "1.2.0",
                         "notes":  "ヘルプからPHPの手動更新機能を利用できるようになりました"
