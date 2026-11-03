@@ -6,8 +6,8 @@
     "notes":  "ソフトウェア情報→コンテンツ(pkg/public)情報\nPHPのバージョン→PHPバージョンの確認と変更にそれぞれ変更\n提供されていないPHPのバージョンを保存できるよう変更\n高度な設定→サーバーにドキュメントルートの変更機能追加\n.htaccessを使用している場合に、.htaccessのRewriteRuleに関する動作を追加\nサーバーが安定するよう修正",
     "artifact":  {
                      "url":  "https://github.com/nad8000/NOARTS_EasyLocal_Update/releases/download/1.3.1/EasyLocal.exe",
-                     "sha256":  "958aca2ccd19ef2fdc96f647da9dda40a04d1fdfe26374601b24ca22794f37df",
-                     "size":  145325479
+                     "sha256":  "161d526c63b31f631b2a31494bc349f4048bf44e74a42721055752f1b318eaf5",
+                     "size":  145325991
                  },
     "history":  [
                     {
